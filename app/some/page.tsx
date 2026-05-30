@@ -5,55 +5,59 @@ export default function SomePage() {
     <div className="bg-[#f5f3ee] text-black min-h-screen">
 
       {/* HERO */}
-      <section className="relative h-[80vh] overflow-hidden">
+<section className="relative h-[80vh] overflow-hidden">
 
- <iframe
-  src="https://player.vimeo.com/video/451860262?background=1"
-  className="absolute top-0 left-0 w-full h-full object-cover scale-[1.4]"
-  frameBorder="0"
-  allow="autoplay; fullscreen"
-  allowFullScreen
-/>
+  <iframe
+    src="https://player.vimeo.com/video/451860262?background=1"
+    className="absolute top-0 left-0 w-full h-full object-cover scale-[1.4]"
+    frameBorder="0"
+    allow="autoplay; fullscreen"
+    allowFullScreen
+  />
 
-        <div className="absolute inset-0 bg-black/15" />
+  <div className="absolute inset-0 bg-black/15" />
 
-        <div className="relative z-10 h-full flex flex-col justify-between p-8 md:p-16 text-white">
+  <div className="relative z-10 h-full flex flex-col justify-between p-8 md:p-16 text-white">
 
-          <Link
-            href="/"
-            className="uppercase tracking-[0.25em] text-sm opacity-80 hover:opacity-100 transition"
-          >
-            THE DANISH AFFAIR
-          </Link>
+    <Link
+      href="/"
+      className="uppercase tracking-[0.25em] text-sm opacity-80 hover:opacity-100 transition"
+    >
+      THE DANISH AFFAIR
+    </Link>
 
-          <div>
+    <div>
 
-        <p className="uppercase tracking-[0.45em] text-xs text-white/60 mb-6">
-  SoMe
-</p>
+      <p className="uppercase tracking-[0.45em] text-xs text-white/60 mb-6">
+        SoMe
+      </p>
 
-            <h1 className="text-5xl md:text-8xl leading-[0.95] font-light tracking-tight mb-8">
-              Brand Storytelling
-              <br />
-              Content
-            </h1>
+      <h1 className="text-5xl md:text-8xl leading-[0.95] font-light tracking-tight mb-8">
+        Brand Storytelling
+        <br />
+        Content
+      </h1>
 
-            <p className="text-lg md:text-2xl max-w-2xl text-white/80 leading-relaxed font-light">
-              Social-first content with cinematic quality, created for brands,
-              businesses and people with something meaningful to say.
-            </p>
-<p className="mt-8 text-sm uppercase tracking-[0.25em] text-white/50">
-  Directed by Michael Abel
-</p>
-          </div>
-<div className="absolute bottom-4 right-4 z-20">
-  <p className="uppercase tracking-[0.2em] text-[10px] text-white/60">
-    WIDEX OPERA
-  </p>
-</div>
-        </div>
+      <p className="text-lg md:text-2xl max-w-2xl text-white/80 leading-relaxed font-light">
+        Social-first content with cinematic quality, created for brands,
+        businesses and people with something meaningful to say.
+      </p>
 
-      </section>
+      <p className="mt-8 text-sm uppercase tracking-[0.25em] text-white/50">
+        Directed by Michael Abel
+      </p>
+
+    </div>
+
+    <div className="absolute bottom-4 right-4 z-20">
+      <p className="uppercase tracking-[0.2em] text-[10px] text-white/60">
+        WIDEX OPERA
+      </p>
+    </div>
+
+  </div>
+
+</section>
 
       {/* INTRO */}
       <section className="px-8 md:px-16 py-28">
@@ -98,7 +102,11 @@ export default function SomePage() {
         allow="autoplay; fullscreen; picture-in-picture"
         allowFullScreen
       />
-
+<div className="absolute bottom-4 right-4 z-20">
+  <p className="uppercase tracking-[0.2em] text-[10px] text-white/60">
+    TIVOLI BIOSPIL
+  </p>
+</div>
     </div>
 
     {/* TWO COLUMN */}
@@ -114,7 +122,11 @@ export default function SomePage() {
           allow="autoplay; fullscreen; picture-in-picture"
           allowFullScreen
         />
-
+<div className="absolute bottom-4 right-4 z-20">
+  <p className="uppercase tracking-[0.2em] text-[10px] text-white/60">
+    WIDEX RESTAURANT
+  </p>
+</div>
       </div>
 
       {/* MCDONALDS */}
@@ -127,6 +139,11 @@ export default function SomePage() {
           allow="autoplay; fullscreen; picture-in-picture"
           allowFullScreen
         />
+        <div className="absolute bottom-4 right-4 z-20">
+  <p className="uppercase tracking-[0.2em] text-[10px] text-white/60">
+    MCDONALD'S
+  </p>
+</div>
 
       </div>
 
