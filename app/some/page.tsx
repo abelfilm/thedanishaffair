@@ -46,7 +46,11 @@ export default function SomePage() {
   Directed by Michael Abel
 </p>
           </div>
-
+<div className="absolute bottom-4 right-4 z-20">
+  <p className="uppercase tracking-[0.2em] text-[10px] text-white/60">
+    WIDEX OPERA
+  </p>
+</div>
         </div>
 
       </section>
